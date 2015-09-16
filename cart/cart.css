@@ -1,0 +1,50 @@
+#shopping_cart {
+	float: right;
+	display: none;
+	background-color: #D8D8D8;
+	width: 350px;
+	height: calc(100% - 250px);
+	font-family: 'League Gothic';
+	font-size: 12pt;
+}
+
+#shopping_cart  h1 {
+	font-family: arial !important;
+	font-size: 18pt;
+	text-align: center;
+}
+
+#shopping_cart p {
+	text-align: center;
+}
+
+#shopping_cart_table {
+	width: 100%;
+}
+input.cart_menu_item_quantity_input {
+	width: 2em;
+}
+
+.cart_menu_item_quantity_input {
+	text-align: right;
+}
+
+.cart_menu_item_quantity_input {
+	width: 6em;
+}
+
+#shoppig_cart_table th {
+	width: 25%;
+}
+
+#shoppig_cart_table td {
+	width: 25%;
+}
+
+#shopping_cart_button {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	z-index: 101;
+	display: none;
+}

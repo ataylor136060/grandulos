@@ -1,0 +1,210 @@
+<?xml version = "1.0"?>
+<?xml-stylesheet type = "text/xsl" href = "menu.xsl"?>
+
+<!--
+Possible Categories
+	Appetizer
+	Side
+	Entrée
+	Drink
+	Dessert-->
+
+<menus>
+	<menu menuType = "lunch_standard">
+		<title>Lunch Menu</title>
+		<!--Time is in shown in military hours, 0%12 = time thus: 0 and 24 = Midnight, 1 = 1AM, 13=1PM-->
+		<start time="10"/>
+		<end time ="16"/>
+		<menuItems>
+			<item>
+				<name>Chicken Tenders</name>
+				<category>Entrée</category>
+				<shortDesc>Four crispy golden brown chicken tenders.</shortDesc>
+				<longDesc>Our chicken tenders comes with four crispy golden brown tenders.</longDesc>
+				<image>/resources/thumbnails/chicken_tenders.png</image>
+				<price>$7.99</price>
+				<nutrition>
+					<calories>185</calories>
+					<fat>11</fat>
+					<sugar>0.1g</sugar>
+				</nutrition>
+			</item>
+			<item>
+				<name>Sirloin</name>
+				<category>Entrée</category>
+				<shortDesc>6 oz or 8 oz USDA choice</shortDesc>
+				<longDesc>Delicious USDA Choice cut sirloins are available at any time.</longDesc>
+				<image>/resources/thumbnails/sirloin.png</image>
+				<price>$8.99</price>
+				<nutrition>
+					<calories>320</calories>
+					<fat>15g</fat>
+					<sugar>0g</sugar>
+				</nutrition>
+			</item>
+			<item>
+				<name>New York Strip</name>
+				<category>Entrée</category>
+				<shortDesc>12 oz USDA choice</shortDesc>
+				<longDesc>Tender and marble cut.</longDesc>
+				<image>/resources/thumbnails/new_york_strip.png</image>
+				<price>$10.99</price>
+				<nutrition>
+					<calories>630</calories>
+					<fat>39g</fat>
+					<sugar>0g</sugar>
+				</nutrition>
+			</item>
+			<item>
+				<name>Baked Potato</name>
+				<category>Side</category>
+				<shortDesc>Steaming hot baked potato.</shortDesc>
+				<longDesc>Comes with your choice of condiments. Tell us you want to go all the way for the best flavour.</longDesc>
+				<image>/resources/thumbnails/baked_potato.png</image>
+				<price>$2.99</price>
+				<nutrition>
+					<calories>270</calories>
+					<fat>14g</fat>
+					<sugar>0g</sugar>
+				</nutrition>
+			</item>
+			<item>
+				<name>Carrots</name>
+				<category>Side</category>
+				<shortDesc>Freshly cut crisp carrots.</shortDesc>
+				<longDesc>Our freshly cut steamed carrots are the perfect complement for your meal.</longDesc>
+				<image>/resources/thumbnails/carrots.png</image>
+				<price>$2.99</price>
+				<nutrition>
+					<calories>25</calories>
+					<fat>0.2g</fat>
+					<sugar>0g</sugar>
+				</nutrition>
+			</item>
+			<item>
+				<name>Green Beans</name>
+				<category>Side</category>
+				<shortDesc>Delicious cold cut green beans.</shortDesc>
+				<longDesc>Hand cut to the perfect length.</longDesc>
+				<image>/resources/thumbnails/green_beans.png</image>
+				<price>$2.99</price>
+				<nutrition>
+					<calories>31</calories>
+					<fat>0.2g</fat>
+					<sugar>3.3g</sugar>
+				</nutrition>
+			</item>
+		</menuItems>
+	</menu>
+	<menu menuType = "dinner_standard">
+		<title>Dinner Menu</title>
+		<start time="0"/>
+		<end time ="4"/>
+		<menuItems>
+			<item>
+				<name>Chicken Tenders</name>
+				<category>Entrée</category>
+				<shortDesc>Four crispy golden brown chicken tenders.</shortDesc>
+				<longDesc>Our chicken tenders comes with four crispy golden brown tenders.</longDesc>
+				<image>/resources/thumbnails/chicken_tenders.png</image>
+				<price>$7.99</price>
+				<nutrition>
+					<calories>185</calories>
+					<fat>11</fat>
+					<sugar>0.1g</sugar>
+				</nutrition>
+			</item>
+			<item>
+				<name>Sirloin</name>
+				<category>Entrée</category>
+				<shortDesc>6 oz or 8 oz USDA choice</shortDesc>
+				<longDesc>Delicious USDA Choice cut sirloins are available at any time.</longDesc>
+				<image>/resources/thumbnails/sirloin.png</image>
+				<price>$8.99</price>
+				<nutrition>
+					<calories>320</calories>
+					<fat>15g</fat>
+					<sugar>0g</sugar>
+				</nutrition>
+			</item>
+			<item>
+				<name>New York Strip</name>
+				<category>Entrée</category>
+				<shortDesc>12 oz USDA choice</shortDesc>
+				<longDesc>Tender and marble cut.</longDesc>
+				<image>/resources/thumbnails/new_york_strip.png</image>
+				<price>$10.99</price>
+				<nutrition>
+					<calories>630</calories>
+					<fat>39g</fat>
+					<sugar>0g</sugar>
+				</nutrition>
+			</item>
+			<item>
+				<name>Prime Rib</name>
+				<category>Entrée</category>
+				<shortDesc>24 oz served after 4</shortDesc>
+				<longDesc>Marinated for 24 hours, these steaks are the most tender flavourful steaks on the planet.</longDesc>
+				<image>/resources/thumbnails/prime_rib.png</image>
+				<price>$20.99</price>
+				<nutrition>
+					<calories>1480</calories>
+					<fat>66g</fat>
+					<sugar>0g</sugar>
+				</nutrition>
+			</item>
+			<item>
+				<name>Ribeye</name>
+				<category>Entrée</category>
+				<shortDesc>10 oz</shortDesc>
+				<longDesc>100% USDA choice Midwestern grain fed beef that is hand trimmed and aged for the perfect flavour and tenderness.</longDesc>
+				<image>/resources/thumbnails/ribeye.png</image>
+				<price>$13.99</price>
+				<nutrition>
+					<calories>847</calories>
+					<fat>63g</fat>
+					<sugar>0g</sugar>
+				</nutrition>
+			</item>
+			<item>
+				<name>Baked Potato</name>
+				<category>Side</category>
+				<shortDesc>Steaming hot baked potato.</shortDesc>
+				<longDesc>Comes with your choice of condiments. Tell us you want to go all the way for the best flavour.</longDesc>
+				<image>/resources/thumbnails/baked_potato.png</image>
+				<price>$2.99</price>
+				<nutrition>
+					<calories>270</calories>
+					<fat>14g</fat>
+					<sugar>0g</sugar>
+				</nutrition>
+			</item>
+			<item>
+				<name>Carrots</name>
+				<category>Side</category>
+				<shortDesc>Freshly cut crisp carrots.</shortDesc>
+				<longDesc>Our freshly cut steamed carrots are the perfect complement for your meal.</longDesc>
+				<image>/resources/thumbnails/carrots.png</image>
+				<price>$2.99</price>
+				<nutrition>
+					<calories>25</calories>
+					<fat>0.2g</fat>
+					<sugar>0g</sugar>
+				</nutrition>
+			</item>
+			<item>
+				<name>Green Beans</name>
+				<category>Side</category>
+				<shortDesc>Delicious cold cut green beans.</shortDesc>
+				<longDesc>Hand cut to the perfect length.</longDesc>
+				<image>/resources/thumbnails/green_beans.png</image>
+				<price>$2.99</price>
+				<nutrition>
+					<calories>31</calories>
+					<fat>0.2g</fat>
+					<sugar>3.3g</sugar>
+				</nutrition>
+			</item>
+	   </menuItems>
+	</menu>
+</menus>

@@ -1,0 +1,30 @@
+.banner {
+    position: absolute;
+    top: 23%;
+    text-align: center;
+	width: 100%;
+    margin-bottom: 2%;
+}
+
+.banner img {
+    position: relative;
+    width: 50%;
+}
+
+.giftText{
+    position:absolute;
+    top: 63%;
+    left: 0;
+    width: 100%;
+    margin-top: 2%;
+    text-align:center;
+}
+
+.giftText h3{
+    font-family:'League Gothic' !important;
+    margin: 1%;
+}
+
+.giftText ul li {
+    font-family: ;
+}
